@@ -174,7 +174,7 @@ function addDays(date, days) {
 }
 
 function calculateSubtotal(items) {
-  return items.reduce((sum, item => {
+  return items.reduce((sum, item) => {
     return sum + (item.quantity * item.price);
   }, 0);
 }
